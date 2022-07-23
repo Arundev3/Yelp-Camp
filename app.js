@@ -30,7 +30,7 @@ const dbUrl = 'mongodb://0.0.0.0:27017/yelp-camp';
 
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: false
 });
 
 const db = mongoose.connection;
